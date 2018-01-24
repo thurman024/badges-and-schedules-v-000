@@ -26,9 +26,9 @@ end
 def printer(list)
   badges = batch_badge_creator(list)
   rooms = assign_rooms(list)
-  badges.each do |welcome|
-    puts "#{welcome}"
-  end
+  # badges.each do |welcome|
+  #   puts "#{welcome}"
+  # end
   rooms.each do |room|
     puts "#{room}"
   end
