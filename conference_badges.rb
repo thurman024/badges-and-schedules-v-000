@@ -34,5 +34,5 @@ def printer(list)
   end
 end
 
-test_list = ["Per A", "Per B"]
-printer(test_list)
+# test_list = ["Per A", "Per B"]
+# printer(test_list)
