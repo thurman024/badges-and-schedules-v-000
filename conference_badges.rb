@@ -33,3 +33,6 @@ def printer(list)
     puts "#{room}"
   end
 end
+
+test_list = ["Per A", "Per B"]
+printer(test_list)
